@@ -3,12 +3,14 @@
 
 :root{
     --color-minion: #f5e050;
+    --color-pastel: #f9f2c1;
 }
 
 body{
     margin: 0px;
     font-family: 'Fuzzy Bubbles', cursive;
     text-align: center;
+    background-color: var(--color-pastel);
 }
 
 header{
@@ -27,8 +29,10 @@ textarea{
     width: 90%;
     max-width: 500px;
     height: 20vh;
-    margin: 3rem 1rem;
+    margin: 3rem auto;
     padding: .5rem;
+    background-color: var(--color-pastel);
+    border-radius: .4rem;
 }
 
 button{
@@ -43,6 +47,7 @@ button{
     border-radius: .2rem;
     font-family: 'Fuzzy Bubbles', cursive;
     font-size: 1.5rem;
+    cursor: pointer;
     
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
@@ -54,9 +59,10 @@ button{
     width: 90%;
     max-width: 500px;
     height: 20vh;
-    margin: 3rem 1rem;
+    margin: 3rem auto;
     padding: .5rem;
     text-align: left;
+    border-radius: .5rem;
 }
 
 footer{
